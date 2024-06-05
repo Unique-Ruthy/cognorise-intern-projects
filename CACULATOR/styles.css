@@ -1,0 +1,282 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  /* border: 1px solid red; */
+}
+
+#calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 8px;
+  max-width: 300px;
+  margin: auto;
+  /* border: 1px solid purple; */
+  width: 100%;
+  height: 60%;
+  padding: 30px;
+  border-radius: 10px;
+  background-image: url(/CACULATOR/quizbgrd.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+
+#calculator input {
+  grid-column: span 4;
+  padding: 15px 20px;
+  /* max-width: 300px; */
+  font-size: 30px;
+  background-color: white;
+  text-align: right;
+  margin-bottom: 10px;
+  border: unset;
+  color: teal;
+  font-weight: bold;
+  border-radius: 9px;
+}
+
+#calculator button {
+  padding: 15px;
+  font-size: 35px;
+  cursor: pointer;
+  border: unset;
+  box-shadow: 0 0 15px teal;
+  border-radius: 9px;
+  background-color: white;
+  color: teal;
+}
+
+@media (max-width: 767px) {
+  #calculator {
+    padding: 20px 30px;
+    height: 40%;
+  }
+
+  #calculator button {
+    padding: 15px;
+    font-size: 27px;
+    cursor: pointer;
+    border: unset;
+    box-shadow: 0 0 15px teal;
+    border-radius: 9px;
+    background-color: white;
+    color: teal;
+  }
+
+  #calculator input {
+    margin-top: 40x;
+  }
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  /* border: 1px solid red; */
+}
+
+#calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 8px;
+  max-width: 300px;
+  margin: auto;
+  /* border: 1px solid purple; */
+  width: 100%;
+  height: 60%;
+  padding: 30px;
+  border-radius: 10px;
+  background-image: url("/CACULATOR/img/quizbgrd.jpg");
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+}
+
+#calculator input {
+  grid-column: span 4;
+  padding: 15px 20px;
+  /* max-width: 300px; */
+  font-size: 30px;
+  background-color: white;
+  text-align: right;
+  margin-bottom: 10px;
+  border: unset;
+  color: teal;
+  font-weight: bold;
+  border-radius: 9px;
+}
+
+#calculator button {
+  padding: 15px;
+  font-size: 35px;
+  cursor: pointer;
+  border: unset;
+  box-shadow: 0 0 15px teal;
+  border-radius: 9px;
+  background-color: white;
+  color: teal;
+}
+
+@media (max-width: 767px) {
+  #calculator {
+    padding: 20px 30px;
+    height: 40%;
+  }
+
+  #calculator button {
+    padding: 15px;
+    font-size: 27px;
+    cursor: pointer;
+    border: unset;
+    box-shadow: 0 0 15px teal;
+    border-radius: 9px;
+    background-color: white;
+    color: teal;
+  }
+
+  #calculator input {
+    margin-top: 40x;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  #calculator {
+    padding: 40px 35px;
+    height: 50%;
+  }
+
+  #calculator input {
+    margin-top: 40x;
+  }
+
+  #calculator button {
+    padding: 15px;
+    font-size: 27px;
+    cursor: pointer;
+    border: unset;
+    box-shadow: 0 0 15px teal;
+    border-radius: 9px;
+    background-color: white;
+    color: teal;
+  }
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  /* border: 1px solid red; */
+}
+
+#calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 8px;
+  max-width: 300px;
+  margin: auto;
+  /* border: 1px solid purple; */
+  width: 100%;
+  height: 60%;
+  padding: 30px;
+  border-radius: 10px;
+  background-image: url("./img/quizbgrd.jpg");
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+}
+
+#calculator input {
+  grid-column: span 4;
+  padding: 15px 20px;
+  /* max-width: 300px; */
+  font-size: 30px;
+  background-color: white;
+  text-align: right;
+  margin-bottom: 10px;
+  border: unset;
+  color: teal;
+  font-weight: bold;
+  border-radius: 9px;
+}
+
+#calculator button {
+  padding: 15px;
+  font-size: 35px;
+  cursor: pointer;
+  border: unset;
+  box-shadow: 0 0 15px teal;
+  border-radius: 9px;
+  background-color: white;
+  color: teal;
+}
+
+@media (max-width: 767px) {
+  #calculator {
+    padding: 20px 30px;
+    height: 40%;
+  }
+
+  #calculator button {
+    padding: 15px;
+    font-size: 27px;
+    cursor: pointer;
+    border: unset;
+    box-shadow: 0 0 15px teal;
+    border-radius: 9px;
+    background-color: white;
+    color: teal;
+  }
+
+  #calculator input {
+    margin-top: 40x;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  #calculator {
+    padding: 40px 35px;
+    height: 50%;
+  }
+
+  #calculator input {
+    margin-top: 40x;
+  }
+
+  #calculator button {
+    padding: 15px;
+    font-size: 27px;
+    cursor: pointer;
+    border: unset;
+    box-shadow: 0 0 15px teal;
+    border-radius: 9px;
+    background-color: white;
+    color: teal;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  #calculator {
+    padding: 40px 35px;
+    height: 50%;
+  }
+
+  #calculator input {
+    margin-top: 40x;
+  }
+
+  #calculator button {
+    padding: 15px;
+    font-size: 27px;
+    cursor: pointer;
+    border: unset;
+    box-shadow: 0 0 15px teal;
+    border-radius: 9px;
+    background-color: white;
+    color: teal;
+  }
+}
